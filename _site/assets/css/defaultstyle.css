@@ -1,0 +1,45 @@
+body {
+  background-color: #1b1b1b; 
+  color: #ffffff; /* red */
+  img {
+      width: 160px;
+      height: 96px;
+  };
+}
+
+#websites {
+    background-color:#313131;
+    margin-top: 25px;
+}
+
+#websites a::after  {
+    content: "·";
+    display: inline-block;
+    color: white;
+    margin-left: 5px;
+}
+
+nav {
+    background-color:#313131;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+nav a::after  {
+    content: "·";
+    display: inline-block;
+    color: white;
+    margin-left: 5px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: red;
+}
